@@ -1,0 +1,162 @@
+/* style ORGANIC */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+  font-family: "Georgia", serif;
+  color: #4b3f2f;
+  line-height: 1.7;
+  padding: 30px;
+  background: #f3efe7; /* tono arena */
+  background-size: cover;
+  background-position: center;
+  text-shadow: none;
+}
+
+/* Titles */
+h1, h2, h3 {
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #5a4633;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 10px;
+  color: #4a3b2a;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 25px;
+}
+
+/* Imágenes */
+img {
+  display: block;
+  margin: 25px auto;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  box-shadow: 0 4px 18px rgba(120, 90, 50, 0.35); /* sombra cálida */
+}
+
+/* Lists */
+ol {
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+/* Fieldset */
+fieldset {
+  border: 2px solid #d8c7a8;
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 12px;
+  background: #fffdf8;
+  box-shadow: 0 4px 15px rgba(150,120,80,0.25);
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  color: #5a4633;
+}
+
+/* Radios */
+input[type="radio"] {
+  margin-right: 6px;
+  transform: scale(1.2);
+}
+
+/* Inputs de conversión */
+input[type="text"],
+form input[type="number"] {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #d8c7a8;
+  margin: 5px;
+  width: 140px;
+  font-size: 1rem;
+  background: #f7f3eb;
+  color: #4b3f2f;
+  box-shadow: 0 2px 8px rgba(150,120,80,0.25);
+  outline: none;
+}
+
+.card {
+  background: #fffdf8;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(150,120,80,0.25);
+}
+
+/* Formularios */
+form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Etiquetas */
+label {
+  margin-right: 10px;
+  font-size: 1.1rem;
+  color: #4b3f2f;
+}
+
+/* ------------------------------ */
+/*   NUEVO: LAYOUT DEL DISEÑO     */
+/* ------------------------------ */
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 25px;
+}
+
+/* Header y Footer */
+header, footer {
+  background: #fffdf8;
+  padding: 25px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(150,120,80,0.25);
+  font-size: 2rem;
+  color: #4a3b2a;
+}
+
+/* Filas de 3 columnas */
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* Cajas */
+.box {
+  background: #fffdf8;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(150,120,80,0.25);
+  min-height: 180px;
+  border: 1px solid #e6dcc7;
+}
+
